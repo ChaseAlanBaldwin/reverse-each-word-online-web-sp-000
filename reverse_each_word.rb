@@ -1,5 +1,5 @@
 def reverse_each_word(word)
-  final = " "
+  final = word.split()
   reversed = []
   normal = []
   normal.push(word)
