@@ -3,7 +3,7 @@ def reverse_each_word(word)
   reversed = []
   normal = []
   normal.push(word)
-  word.each do |x|
+  normal.each do |x|
     reversed.unshift(i)
   end
   return reversed.join("")
