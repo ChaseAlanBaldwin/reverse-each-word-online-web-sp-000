@@ -1,7 +1,7 @@
 def reverse_each_word(word)
-  reversed = word.split()
+  words = word.split()
   
-  .collect do |topping|
-  "I love #{topping} on my burgers"
-end
+  words.collect do |word|
+    word.reverse
+  end
 end
