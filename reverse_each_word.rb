@@ -5,5 +5,5 @@ def reverse_each_word(word)
   normal.each do |x|
     reversed.unshift(x)
   end
-  return reversed.join("")
+  return reversed.join(" ")
 end
