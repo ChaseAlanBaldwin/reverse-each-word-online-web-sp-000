@@ -1,7 +1,7 @@
 def reverse_each_word(word)
-  final = word.split()
+  final = " "
   reversed = []
-  normal = []
+  normal = word.split()
   normal.push(word)
   normal.each do |x|
     reversed.unshift(x)
